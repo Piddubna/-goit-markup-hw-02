@@ -53,7 +53,10 @@ font-family: "Raleway", sans-serif;
   letter-spacing: 0.02em;
   color:#434455 ;
 }
-.hero {}
+.hero {
+  background: #2e2f42;
+  height: 600px;
+}
 
 .hero-title {
     font-weight: 700;
@@ -63,7 +66,9 @@ font-family: "Raleway", sans-serif;
     text-align: center;
     color:#fff;
 }
+
 .button {
+  cursor :pointer ;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -101,7 +106,9 @@ font-family: "Raleway", sans-serif;
   color: #434455;
 }
 
-.team {}
+.team {
+  background: #f4f4fd;
+}
 
 .team-title {
   font-weight: 700;
@@ -161,6 +168,11 @@ font-family: "Raleway", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.footer {
+  background: #2e2f42;
+  height: 312px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
