@@ -1,5 +1,7 @@
 body {
 font-family: "Roboto" , sans-serif ;
+color: #434455;
+background-color: #FFFFFF;
 }
 
 
@@ -9,6 +11,13 @@ ul {
 
 a {
 text-decoration: none;
+}
+
+.header {
+
+}
+.header-navigation {
+
 }
 
 .header-logo {
@@ -46,7 +55,9 @@ font-family: "Raleway", sans-serif;
   color: #404BBF;
 }
 
-.address  {}
+.address  {
+  font-style: normal;
+}
 
 .address-menu {}
 
@@ -59,9 +70,10 @@ font-family: "Raleway", sans-serif;
   letter-spacing: 0.02em;
   color:#434455 ;
 }
+
 .hero {
   background: #2e2f42;
-  height: 600px;
+ 
 }
 
 .hero-title {
@@ -73,13 +85,36 @@ font-family: "Raleway", sans-serif;
     color:#fff;
 }
 
-.button {
-  cursor :pointer ;
+
+
+.hero-btn {
+   cursor: pointer;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+color:#FFFFFF ;
+   background: #4D5AE5;
+}
+
+.hero-btn :hover {
+  background: #404BBF;
+}
+
+.hero-btn :focus {
+  background: #404BBF;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature {}
@@ -96,6 +131,7 @@ font-family: "Raleway", sans-serif;
 
 .feature-list-item {}
 
+
 .feature-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -105,7 +141,6 @@ font-family: "Raleway", sans-serif;
 }
 
 .feature-list-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -113,7 +148,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .team {
-  background: #f4f4fd;
+ background: #f4f4fd;
 }
 
 .team-title {
@@ -139,7 +174,6 @@ font-family: "Raleway", sans-serif;
 }
 
 .team-list-subtitle {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -169,7 +203,6 @@ font-family: "Raleway", sans-serif;
 }
 
 .portfolio-subtitle {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -200,7 +233,6 @@ font-family: "Raleway", sans-serif;
 
 .footer-text {
   font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
