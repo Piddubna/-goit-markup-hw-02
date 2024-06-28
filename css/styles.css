@@ -64,13 +64,19 @@ font-family: "Raleway", sans-serif;
 .address-menu-item {}
 
 .address-link {
+  cursor: pointer;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:#434455 ;
+
+
 }
 
+.address-link :hover, :focus {
+color: #404BBF ;
+}
 .hero {
   background: #2e2f42;
  
@@ -161,9 +167,13 @@ color:#FFFFFF ;
 
 .team-list {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #ffffff;
+}
 
-.team-card {}
+.team-card {
+  
+}
 
 .team-list-title-item {
   font-weight: 500;
