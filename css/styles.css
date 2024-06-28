@@ -92,6 +92,7 @@ color: #404BBF ;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color:#fff;
 }
@@ -149,6 +150,8 @@ color:#FFFFFF ;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
   }
 
@@ -156,8 +159,7 @@ color:#FFFFFF ;
 
 .team-list-item {
     background-color: #ffffff;
-    width :264px;
-     height :380px
+  
 }
 
 .team-list-title-item {
@@ -181,6 +183,8 @@ color:#FFFFFF ;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center ;
+  text-transform: capitalize;
   color: #2e2f42;
 
 }
@@ -214,6 +218,7 @@ color:#FFFFFF ;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color:#4d5ae5;;
 }
 
@@ -223,6 +228,7 @@ color:#FFFFFF ;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
 }
 
