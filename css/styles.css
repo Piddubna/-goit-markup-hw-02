@@ -20,7 +20,7 @@ text-decoration: none;
 
 }
 
-.header-logo {
+.logo {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -30,13 +30,9 @@ font-family: "Raleway", sans-serif;
     color: #4d5ae5;
 }
 .logo-dark {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color:#2E2F42 ;
 }
+
 .header-menu-list {}
 
 .header-menu-item {}
@@ -49,8 +45,15 @@ font-family: "Raleway", sans-serif;
     color:#2E2F42 ;
 }
 
-.header-menu-link:hover,
-.header-menu-link:active,
+.header-menu-link:hover {
+  color: #404BBF;
+
+}
+
+.header-menu-link:active {
+  color: #404BBF;
+}
+
 .header-menu-link:focus {
   color: #404BBF;
 }
@@ -65,18 +68,21 @@ font-family: "Raleway", sans-serif;
 
 .address-link {
   cursor: pointer;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:#434455 ;
 
-
 }
 
-.address-link :hover, :focus {
+.address-link:hover {
+  color: #404BBF ;
+}
+
+.address-link:focus {
 color: #404BBF ;
 }
+
 .hero {
   background: #2e2f42;
  
@@ -87,11 +93,8 @@ color: #404BBF ;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color:#fff;
 }
-
-
 
 .hero-btn {
    cursor: pointer;
@@ -110,32 +113,16 @@ color:#FFFFFF ;
   background: #404BBF;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.feature {
 }
 
-.feature {}
+.feature-list {
 
-.feature-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color:#2E2F42 ;
 }
 
-.feature-list {}
-
-.feature-list-item {}
+.feature-list-item {
+  
+}
 
 
 .feature-list-title {
@@ -169,10 +156,8 @@ color:#FFFFFF ;
 
 .team-list-item {
     background-color: #ffffff;
-}
-
-.team-card {
-  
+    width :264px;
+     height :380px
 }
 
 .team-list-title-item {
